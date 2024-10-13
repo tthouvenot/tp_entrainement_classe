@@ -28,6 +28,7 @@ class Library:
         for book in self.books_list:
             if title == book.title:
                 print(book.show_information())
+                print()
                 return book
             else:
                 return f"Aucun livre \"{title}\" n'est présent dans la bibliothèque!"
